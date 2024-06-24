@@ -21,7 +21,7 @@
 \DefineBibliographyStrings{english}{url={\textsc{url}}}
 
 %% Only needed if you want a Publication List
-\addbibresource{own-bib.bib}
+\addbibresource{sections/own-bib.bib}
 
 \AtBeginBibliography{\setcounter{maxnames}{99}}
 
@@ -74,14 +74,14 @@
 
 \bigskip
 \begin{tabular}{ll}
-  \hspace{-1em} {\faEnvelope[regular]}{\href{mailto:diffractionx@gmail.com}{\texttt{diffractionx@gmail.com}}} \hspace{2em} & {\faGraduationCap}{\href{https://scholar.google.com/citations?hl=en&user=lOcrKM0AAAAJ}{\texttt{Google Scholar}}} \\
+  \hspace{-1em} {\faEnvelope[regular]}{\href{mailto:liuxin.optics@gmail.com}{\texttt{liuxin.optics@gmail.com}}} \hspace{2em} & {\faGraduationCap}{\href{https://scholar.google.com/citations?user=umJBbTwAAAAJ&hl=en}{\texttt{Google Scholar}}} \\
   \hspace{-1em} {\faGithub}{\href{https://github.com/LiuX2018}{\texttt{github.com/LiuX2018}}} \hspace{2em} & {\faGlobe}{\href{https://liux2018.github.io}{\texttt{liux2018.github.io}}}
 \end{tabular}
   % You can use a tabular here if you want to line up the fields.
 }
 \rightheader{~}
 \begin{fullonly}
-\photo[r]{photo_kaust}
+\photo[r]{photos/photo_kaust}
 \photoscale{0.13}
 \end{fullonly}
 
@@ -90,31 +90,31 @@
 \begin{document}
 \makeheaders[c]
 
-\input{research_interests}
+\input{sections/research_interests}
 
-\makerubric{work}
+\makerubric{sections/work}
 
-\makerubric{education}
+\makerubric{sections/education}
 
 % \makerubric{experience_present}
 
 % If you're not a researcher nor an academic, you probably don't have any publications; delete this line.
 %% Sometimes when a section can't be nicely modelled with the \entry[]... mechanism; hack our own and use \input NOT \makerubric
-\input{publications}
+\input{sections/publications}
 
-\makerubric{awards}
+\makerubric{sections/awards}
 
-\makerubric{professional_services}
+\makerubric{sections/professional_services}
 
-\makerubric{talks}
+\makerubric{sections/talks}
 
-\makerubric{experience_teaching}
+\makerubric{sections/experience_teaching}
 
-\makerubric{patents}
+\makerubric{sections/patents}
 
-\makerubric{skills}
+\makerubric{sections/skills}
 
-% \makerubric{referee}
-% \input{referee-full}
+% \makerubric{sections/referee}
+% \input{sections/referee-full}
 
 \end{document}
